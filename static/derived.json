@@ -1,0 +1,504 @@
+{
+ "counties_total": 3131,
+ "counties_reliable": 2916,
+ "min_n": 1000,
+ "national": {
+  "kfr25": {
+   "mean": 0.4241,
+   "median": 0.4177,
+   "sd": 0.0558,
+   "p10": 0.359,
+   "p90": 0.5033,
+   "min": 0.2423,
+   "max": 0.638,
+   "spread": 0.1443
+  },
+  "kfr50": {
+   "mean": 0.5099,
+   "median": 0.505,
+   "sd": 0.0468,
+   "p10": 0.4575,
+   "p90": 0.575,
+   "min": 0.3015,
+   "max": 0.678,
+   "spread": 0.1175
+  },
+  "kfr75": {
+   "mean": 0.592,
+   "median": 0.5887,
+   "sd": 0.0429,
+   "p10": 0.5426,
+   "p90": 0.6484,
+   "min": 0.3554,
+   "max": 0.7407,
+   "spread": 0.1058
+  },
+  "gap": {
+   "mean": 0.1679,
+   "median": 0.1696,
+   "p10": 0.1252,
+   "p90": 0.2075
+  }
+ },
+ "correlations": [
+  {
+   "key": "singlepar",
+   "label": "Single-parent share",
+   "r25": -0.608,
+   "r75": -0.431
+  },
+  {
+   "key": "poverty",
+   "label": "Poverty rate",
+   "r25": -0.501,
+   "r75": -0.334
+  },
+  {
+   "key": "score",
+   "label": "Test scores (all students)",
+   "r25": 0.478,
+   "r75": 0.337
+  },
+  {
+   "key": "score_ecd",
+   "label": "Test scores (low-income students)",
+   "r25": 0.447,
+   "r75": 0.313
+  },
+  {
+   "key": "score_nec",
+   "label": "Test scores (not low-income)",
+   "r25": 0.253,
+   "r75": 0.191
+  },
+  {
+   "key": "medinc",
+   "label": "Median household income",
+   "r25": 0.358,
+   "r75": 0.196
+  },
+  {
+   "key": "collshare",
+   "label": "Share of adults with a BA",
+   "r25": 0.174,
+   "r75": 0.04
+  },
+  {
+   "key": "popdens",
+   "label": "Population density",
+   "r25": -0.03,
+   "r75": -0.062
+  }
+ ],
+ "density_bins": [
+  {
+   "bin": 0,
+   "label": "1-10 per sq mi",
+   "n": 357,
+   "kfr25": 0.4764,
+   "kfr75": 0.6195
+  },
+  {
+   "bin": 1,
+   "label": "10-100 per sq mi",
+   "n": 1683,
+   "kfr25": 0.4233,
+   "kfr75": 0.5941
+  },
+  {
+   "bin": 2,
+   "label": "100-1,000 per sq mi",
+   "n": 734,
+   "kfr25": 0.404,
+   "kfr75": 0.5766
+  },
+  {
+   "bin": 3,
+   "label": "1,000-10,000 per sq mi",
+   "n": 134,
+   "kfr25": 0.4053,
+   "kfr75": 0.5781
+  },
+  {
+   "bin": 4,
+   "label": "10,000+ per sq mi",
+   "n": 8,
+   "kfr25": 0.4294,
+   "kfr75": 0.5698
+  }
+ ],
+ "ages": {
+  "kfr24_25": 0.4716,
+  "kfr24_75": 0.5821,
+  "kfr26_25": 0.4534,
+  "kfr26_75": 0.5938,
+  "kfr29_25": 0.4382,
+  "kfr29_75": 0.5968,
+  "adult_25": 0.4241,
+  "adult_75": 0.592,
+  "n": 2916
+ },
+ "regions": {
+  "CT": "Northeast",
+  "ME": "Northeast",
+  "MA": "Northeast",
+  "NH": "Northeast",
+  "RI": "Northeast",
+  "VT": "Northeast",
+  "NJ": "Northeast",
+  "NY": "Northeast",
+  "PA": "Northeast",
+  "IL": "Midwest",
+  "IN": "Midwest",
+  "MI": "Midwest",
+  "OH": "Midwest",
+  "WI": "Midwest",
+  "IA": "Midwest",
+  "KS": "Midwest",
+  "MN": "Midwest",
+  "MO": "Midwest",
+  "NE": "Midwest",
+  "ND": "Midwest",
+  "SD": "Midwest",
+  "DE": "South",
+  "FL": "South",
+  "GA": "South",
+  "MD": "South",
+  "NC": "South",
+  "SC": "South",
+  "VA": "South",
+  "DC": "South",
+  "WV": "South",
+  "AL": "South",
+  "KY": "South",
+  "MS": "South",
+  "TN": "South",
+  "AR": "South",
+  "LA": "South",
+  "OK": "South",
+  "TX": "South",
+  "AZ": "West",
+  "CO": "West",
+  "ID": "West",
+  "MT": "West",
+  "NV": "West",
+  "NM": "West",
+  "UT": "West",
+  "WY": "West",
+  "AK": "West",
+  "CA": "West",
+  "HI": "West",
+  "OR": "West",
+  "WA": "West"
+ },
+ "twins": [
+  {
+   "flat": {
+    "fips": "36005",
+    "name": "Bronx County, NY",
+    "kfr25": 0.3901,
+    "kfr75": 0.5149
+   },
+   "steep": {
+    "fips": "21037",
+    "name": "Campbell County, KY",
+    "kfr25": 0.3884,
+    "kfr75": 0.6134
+   },
+   "gap_diff": 0.1002
+  },
+  {
+   "flat": {
+    "fips": "02020",
+    "name": "Anchorage Municipality, AK",
+    "kfr25": 0.3902,
+    "kfr75": 0.5173
+   },
+   "steep": {
+    "fips": "21037",
+    "name": "Campbell County, KY",
+    "kfr25": 0.3884,
+    "kfr75": 0.6134
+   },
+   "gap_diff": 0.0979
+  },
+  {
+   "flat": {
+    "fips": "02090",
+    "name": "Fairbanks North Star Borough, AK",
+    "kfr25": 0.3994,
+    "kfr75": 0.5124
+   },
+   "steep": {
+    "fips": "39099",
+    "name": "Mahoning County, OH",
+    "kfr25": 0.3955,
+    "kfr75": 0.6033
+   },
+   "gap_diff": 0.0948
+  },
+  {
+   "flat": {
+    "fips": "12053",
+    "name": "Hernando County, FL",
+    "kfr25": 0.3927,
+    "kfr75": 0.5252
+   },
+   "steep": {
+    "fips": "21037",
+    "name": "Campbell County, KY",
+    "kfr25": 0.3884,
+    "kfr75": 0.6134
+   },
+   "gap_diff": 0.0925
+  },
+  {
+   "flat": {
+    "fips": "02090",
+    "name": "Fairbanks North Star Borough, AK",
+    "kfr25": 0.3994,
+    "kfr75": 0.5124
+   },
+   "steep": {
+    "fips": "22045",
+    "name": "Iberia Parish, LA",
+    "kfr25": 0.3961,
+    "kfr75": 0.6003
+   },
+   "gap_diff": 0.0912
+  },
+  {
+   "flat": {
+    "fips": "02090",
+    "name": "Fairbanks North Star Borough, AK",
+    "kfr25": 0.3994,
+    "kfr75": 0.5124
+   },
+   "steep": {
+    "fips": "31055",
+    "name": "Douglas County, NE",
+    "kfr25": 0.3993,
+    "kfr75": 0.6035
+   },
+   "gap_diff": 0.0912
+  },
+  {
+   "flat": {
+    "fips": "02090",
+    "name": "Fairbanks North Star Borough, AK",
+    "kfr25": 0.3994,
+    "kfr75": 0.5124
+   },
+   "steep": {
+    "fips": "48303",
+    "name": "Lubbock County, TX",
+    "kfr25": 0.3957,
+    "kfr75": 0.599
+   },
+   "gap_diff": 0.0903
+  },
+  {
+   "flat": {
+    "fips": "16055",
+    "name": "Kootenai County, ID",
+    "kfr25": 0.4496,
+    "kfr75": 0.5702
+   },
+   "steep": {
+    "fips": "22057",
+    "name": "Lafourche Parish, LA",
+    "kfr25": 0.4451,
+    "kfr75": 0.6556
+   },
+   "gap_diff": 0.0899
+  },
+  {
+   "flat": {
+    "fips": "32003",
+    "name": "Clark County, NV",
+    "kfr25": 0.3876,
+    "kfr75": 0.5237
+   },
+   "steep": {
+    "fips": "21037",
+    "name": "Campbell County, KY",
+    "kfr25": 0.3884,
+    "kfr75": 0.6134
+   },
+   "gap_diff": 0.0889
+  },
+  {
+   "flat": {
+    "fips": "04001",
+    "name": "Apache County, AZ",
+    "kfr25": 0.3392,
+    "kfr75": 0.4628
+   },
+   "steep": {
+    "fips": "37045",
+    "name": "Cleveland County, NC",
+    "kfr25": 0.3379,
+    "kfr75": 0.5503
+   },
+   "gap_diff": 0.0888
+  },
+  {
+   "flat": {
+    "fips": "36005",
+    "name": "Bronx County, NY",
+    "kfr25": 0.3901,
+    "kfr75": 0.5149
+   },
+   "steep": {
+    "fips": "39119",
+    "name": "Muskingum County, OH",
+    "kfr25": 0.3886,
+    "kfr75": 0.6003
+   },
+   "gap_diff": 0.0869
+  },
+  {
+   "flat": {
+    "fips": "24033",
+    "name": "Prince George's County, MD",
+    "kfr25": 0.3885,
+    "kfr75": 0.527
+   },
+   "steep": {
+    "fips": "21037",
+    "name": "Campbell County, KY",
+    "kfr25": 0.3884,
+    "kfr75": 0.6134
+   },
+   "gap_diff": 0.0865
+  }
+ ],
+ "examples": {
+  "charlotte": {
+   "fips": "37119",
+   "name": "Mecklenburg County, NC",
+   "kfr25": 0.3524,
+   "kfr75": 0.5508,
+   "gap": 0.1984,
+   "n": 174244.0
+  },
+  "saltlake": {
+   "fips": "49035",
+   "name": "Salt Lake County, UT",
+   "kfr25": 0.4541,
+   "kfr75": 0.5956,
+   "gap": 0.1415,
+   "n": 273450.0
+  },
+  "middlesex": {
+   "fips": "25017",
+   "name": "Middlesex County, MA",
+   "kfr25": 0.4801,
+   "kfr75": 0.6289,
+   "gap": 0.1488,
+   "n": 329040.0
+  },
+  "cook": {
+   "fips": "17031",
+   "name": "Cook County, IL",
+   "kfr25": 0.3846,
+   "kfr75": 0.5816,
+   "gap": 0.197,
+   "n": 1396091.0
+  },
+  "dubuque": {
+   "fips": "19061",
+   "name": "Dubuque County, IA",
+   "kfr25": 0.5133,
+   "kfr75": 0.6648,
+   "gap": 0.1515,
+   "n": 22778.0
+  }
+ },
+ "extremes": {
+  "best_p25": [
+   {
+    "fips": "27145",
+    "name": "Stearns County, MN",
+    "kfr25": 0.538,
+    "kfr75": 0.6545,
+    "gap": 0.1165,
+    "n": 34267.0
+   },
+   {
+    "fips": "36079",
+    "name": "Putnam County, NY",
+    "kfr25": 0.5202,
+    "kfr75": 0.642,
+    "gap": 0.1218,
+    "n": 25374.0
+   },
+   {
+    "fips": "34003",
+    "name": "Bergen County, NJ",
+    "kfr25": 0.5195,
+    "kfr75": 0.6484,
+    "gap": 0.1289,
+    "n": 203052.0
+   },
+   {
+    "fips": "27019",
+    "name": "Carver County, MN",
+    "kfr25": 0.5171,
+    "kfr75": 0.6444,
+    "gap": 0.1273,
+    "n": 22080.0
+   },
+   {
+    "fips": "19061",
+    "name": "Dubuque County, IA",
+    "kfr25": 0.5133,
+    "kfr75": 0.6648,
+    "gap": 0.1515,
+    "n": 22778.0
+   }
+  ],
+  "worst_p25": [
+   {
+    "fips": "51760",
+    "name": "Richmond city, VA",
+    "kfr25": 0.311,
+    "kfr75": 0.5136,
+    "gap": 0.2026,
+    "n": 43178.0
+   },
+   {
+    "fips": "13095",
+    "name": "Dougherty County, GA",
+    "kfr25": 0.3129,
+    "kfr75": 0.4982,
+    "gap": 0.1853,
+    "n": 26576.0
+   },
+   {
+    "fips": "47157",
+    "name": "Shelby County, TN",
+    "kfr25": 0.3182,
+    "kfr75": 0.5311,
+    "gap": 0.2129,
+    "n": 253266.0
+   },
+   {
+    "fips": "24510",
+    "name": "Baltimore city, MD",
+    "kfr25": 0.3209,
+    "kfr75": 0.5003,
+    "gap": 0.1794,
+    "n": 161351.0
+   },
+   {
+    "fips": "37155",
+    "name": "Robeson County, NC",
+    "kfr25": 0.321,
+    "kfr75": 0.5061,
+    "gap": 0.1851,
+    "n": 35824.0
+   }
+  ]
+ }
+}
